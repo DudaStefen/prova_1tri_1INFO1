@@ -3,15 +3,19 @@
     PROBLEMA: Média ponderada
     Um Professor está lançando as notas das atividades avaliativas realizdas durante o trimestre.
     Cada atividade possui um peso diferente, sendo que a Atividade 1 vale 5 pontos, a atividade 2 vale 4 pontos e a Atividade 3 vale apenas 1 ponto.
-    Informe as notas que o aluno obteve em cada uma das atividades. Calcule, considerando o peso de cada atividade, qual será a média obtida pelo aluno no trimestre.
+    Informe as notas que o aluno obteve em cada uma das atividades. Calcule, considerando o peso de cada atividade, qual será a média obtida pelo aluno 
+    no trimestre.
     */
 
     //ENTRADA
-
+    const nota1 = Number(prompt("Qual foi a sua nota obtida na primeita atividade?"));
+    const nota2 = Number(prompt(" Qual foi a sua nota obtida na atividade2 ?"));
+    const nota3 = Number(prompt("Qual foi sua nota obtida na atividade 3?"));
 
     //PROCESSAMENTO
-
-
+    const soma = nota1 + nota2 + nota3 ;
+    const media = soma / 3 ;
+    
     //SAÍDA
-
+    alert (`A média que você tirou é ${media}`)
 </script>
